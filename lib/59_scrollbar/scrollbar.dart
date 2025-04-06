@@ -9,7 +9,7 @@ class MyScrollbar extends StatelessWidget {
       backgroundColor: Colors.purple[100],
       appBar: AppBar(title: const Text('Scrollbar')),
       body: Scrollbar(
-        isAlwaysShown: true, // scrollbar always visitable
+        thumbVisibility: true, // scrollbar always visitable
         thickness: 10, // width of scrollbar
         child: ListView.separated(
           padding: const EdgeInsets.all(20),
